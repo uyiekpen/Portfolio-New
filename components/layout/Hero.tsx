@@ -1,6 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import HeroImg from "../../assets/header-img.svg";
+import { FaReact } from "react-icons/fa6";
+import { IoLogoVue } from "react-icons/io5";
+import { FaCss3Alt } from "react-icons/fa";
+import { BiLogoFirebase } from "react-icons/bi";
+import { FaHtml5 } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
+import { IoLogoJavascript } from "react-icons/io";
 
 type Props = {};
 
@@ -27,15 +35,39 @@ const Hero = (props: Props) => {
                 to decipher challenging problems and create delightful
                 experiences.
               </p>
+              <div className="flex mt-5">
+                <span className="md:text-3xl text-xl">
+                  <FaReact />
+                </span>
+                <span className="md:text-3xl text-xl">
+                  <IoLogoVue />
+                </span>{" "}
+                <span className="md:text-3xl text-xl">
+                  <FaCss3Alt />
+                </span>{" "}
+                <span className="md:text-3xl text-xl">
+                  <BiLogoFirebase />
+                </span>
+                <span className="md:text-3xl text-xl">
+                  <FaHtml5 />
+                </span>
+                <span className="md:text-3xl text-xl">
+                  <FaNodeJs />
+                </span>
+                <span className="md:text-3xl text-xl">
+                  <BiLogoTypescript />
+                </span>
+                <span className="md:text-3xl text-xl">
+                  <IoLogoJavascript />
+                </span>
+              </div>
             </div>
             <div className="md:w-[500px] w-full ">
               <Image src={HeroImg} alt="hero.png" />
             </div>
           </div>
         </div>
-        
       </div>
-      
     </div>
   );
 };
