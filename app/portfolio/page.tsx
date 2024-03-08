@@ -25,7 +25,7 @@ const portfolio = (props: Props) => {
             real-time, and make your customers smile. Boost efficiency, keep 'em
             coming back, and cut down on costs.
           </p>
-          <div className="hidden md:block">
+          <div className="">
             <a href="https://www.routelift.com/">
               <CustomButton
                 title="View Project"
