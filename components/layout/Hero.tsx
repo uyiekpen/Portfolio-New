@@ -14,14 +14,14 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="h-[540px] w-full text-white  bg-[#121212]">
+    <div className="h-[540px] w-full text-black  ">
       <div className="h-full w-full ">
         <div className="flex justify-between w-full h-full p-8">
           <div className="md:h-[120px] h-[100px]  flex flex-col justify-between  ">
-            <div className="h-3 w-3 rounded-[100%] bg-white "></div>
-            <div className="h-3 w-3 rounded-[100%] bg-white "></div>
-            <div className="h-3 w-3 rounded-[100%] bg-white"></div>
-            <div className="h-3 w-3 rounded-[100%] bg-white"></div>{" "}
+            <div className="h-3 w-3 rounded-[100%] bg-black "></div>
+            <div className="h-3 w-3 rounded-[100%] bg-black "></div>
+            <div className="h-3 w-3 rounded-[100%] bg-black"></div>
+            <div className="h-3 w-3 rounded-[100%] bg-black"></div>{" "}
             <div className="h-3 w-3 rounded-[100%] bg-white"></div>
           </div>
           <div className="flex w-[90%] justify-between flex-col-reverse md:flex-row ">
